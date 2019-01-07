@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D494802921E384C100B51AB3 /* BasicGCDTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D494801F21E384C100B51AB3 /* BasicGCDTimer.framework */; };
-		D494802E21E384C100B51AB3 /* BasicGCDTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D494802D21E384C100B51AB3 /* BasicGCDTimerTests.swift */; };
 		D494803021E384C100B51AB3 /* BasicGCDTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = D494802221E384C100B51AB3 /* BasicGCDTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D494803A21E3851100B51AB3 /* BasicGCDTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D494803921E3851100B51AB3 /* BasicGCDTimer.swift */; };
+		D494804221E386D400B51AB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D494804121E386D400B51AB3 /* AppDelegate.swift */; };
+		D494804421E386D400B51AB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D494804321E386D400B51AB3 /* ViewController.swift */; };
+		D494804721E386D400B51AB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D494804521E386D400B51AB3 /* Main.storyboard */; };
+		D494804921E386D500B51AB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D494804821E386D500B51AB3 /* Assets.xcassets */; };
+		D494804C21E386D500B51AB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D494804A21E386D500B51AB3 /* LaunchScreen.storyboard */; };
+		D494805121E386E200B51AB3 /* BasicGCDTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D494801F21E384C100B51AB3 /* BasicGCDTimer.framework */; };
+		D494805221E386E200B51AB3 /* BasicGCDTimer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D494801F21E384C100B51AB3 /* BasicGCDTimer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D494802A21E384C100B51AB3 /* PBXContainerItemProxy */ = {
+		D494805321E386E200B51AB3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D494801621E384C100B51AB3 /* Project object */;
 			proxyType = 1;
@@ -22,13 +28,32 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D494805521E386E200B51AB3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D494805221E386E200B51AB3 /* BasicGCDTimer.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		D494801F21E384C100B51AB3 /* BasicGCDTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BasicGCDTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D494802221E384C100B51AB3 /* BasicGCDTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicGCDTimer.h; sourceTree = "<group>"; };
 		D494802321E384C100B51AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D494802821E384C100B51AB3 /* BasicGCDTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicGCDTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D494802D21E384C100B51AB3 /* BasicGCDTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicGCDTimerTests.swift; sourceTree = "<group>"; };
-		D494802F21E384C100B51AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D494803921E3851100B51AB3 /* BasicGCDTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicGCDTimer.swift; sourceTree = "<group>"; };
+		D494803F21E386D300B51AB3 /* BasicGCDTimerTestHarness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicGCDTimerTestHarness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D494804121E386D400B51AB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D494804321E386D400B51AB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D494804621E386D400B51AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D494804821E386D500B51AB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D494804B21E386D500B51AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D494804D21E386D500B51AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,11 +64,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D494802521E384C100B51AB3 /* Frameworks */ = {
+		D494803C21E386D300B51AB3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D494802921E384C100B51AB3 /* BasicGCDTimer.framework in Frameworks */,
+				D494805121E386E200B51AB3 /* BasicGCDTimer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,7 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				D494802121E384C100B51AB3 /* BasicGCDTimer */,
-				D494802C21E384C100B51AB3 /* BasicGCDTimerTests */,
+				D494804021E386D400B51AB3 /* BasicGCDTimerTestHarness */,
 				D494802021E384C100B51AB3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,7 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				D494801F21E384C100B51AB3 /* BasicGCDTimer.framework */,
-				D494802821E384C100B51AB3 /* BasicGCDTimerTests.xctest */,
+				D494803F21E386D300B51AB3 /* BasicGCDTimerTestHarness.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,18 +97,23 @@
 			isa = PBXGroup;
 			children = (
 				D494802221E384C100B51AB3 /* BasicGCDTimer.h */,
+				D494803921E3851100B51AB3 /* BasicGCDTimer.swift */,
 				D494802321E384C100B51AB3 /* Info.plist */,
 			);
 			path = BasicGCDTimer;
 			sourceTree = "<group>";
 		};
-		D494802C21E384C100B51AB3 /* BasicGCDTimerTests */ = {
+		D494804021E386D400B51AB3 /* BasicGCDTimerTestHarness */ = {
 			isa = PBXGroup;
 			children = (
-				D494802D21E384C100B51AB3 /* BasicGCDTimerTests.swift */,
-				D494802F21E384C100B51AB3 /* Info.plist */,
+				D494804121E386D400B51AB3 /* AppDelegate.swift */,
+				D494804321E386D400B51AB3 /* ViewController.swift */,
+				D494804521E386D400B51AB3 /* Main.storyboard */,
+				D494804821E386D500B51AB3 /* Assets.xcassets */,
+				D494804A21E386D500B51AB3 /* LaunchScreen.storyboard */,
+				D494804D21E386D500B51AB3 /* Info.plist */,
 			);
-			path = BasicGCDTimerTests;
+			path = BasicGCDTimerTestHarness;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,23 +148,24 @@
 			productReference = D494801F21E384C100B51AB3 /* BasicGCDTimer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D494802721E384C100B51AB3 /* BasicGCDTimerTests */ = {
+		D494803E21E386D300B51AB3 /* BasicGCDTimerTestHarness */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D494803621E384C100B51AB3 /* Build configuration list for PBXNativeTarget "BasicGCDTimerTests" */;
+			buildConfigurationList = D494804E21E386D500B51AB3 /* Build configuration list for PBXNativeTarget "BasicGCDTimerTestHarness" */;
 			buildPhases = (
-				D494802421E384C100B51AB3 /* Sources */,
-				D494802521E384C100B51AB3 /* Frameworks */,
-				D494802621E384C100B51AB3 /* Resources */,
+				D494803B21E386D300B51AB3 /* Sources */,
+				D494803C21E386D300B51AB3 /* Frameworks */,
+				D494803D21E386D300B51AB3 /* Resources */,
+				D494805521E386E200B51AB3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D494802B21E384C100B51AB3 /* PBXTargetDependency */,
+				D494805421E386E200B51AB3 /* PBXTargetDependency */,
 			);
-			name = BasicGCDTimerTests;
-			productName = BasicGCDTimerTests;
-			productReference = D494802821E384C100B51AB3 /* BasicGCDTimerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = BasicGCDTimerTestHarness;
+			productName = BasicGCDTimerTestHarness;
+			productReference = D494803F21E386D300B51AB3 /* BasicGCDTimerTestHarness.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -148,8 +179,9 @@
 				TargetAttributes = {
 					D494801E21E384C100B51AB3 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
-					D494802721E384C100B51AB3 = {
+					D494803E21E386D300B51AB3 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -160,6 +192,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = D494801521E384C100B51AB3;
 			productRefGroup = D494802021E384C100B51AB3 /* Products */;
@@ -167,7 +200,7 @@
 			projectRoot = "";
 			targets = (
 				D494801E21E384C100B51AB3 /* BasicGCDTimer */,
-				D494802721E384C100B51AB3 /* BasicGCDTimerTests */,
+				D494803E21E386D300B51AB3 /* BasicGCDTimerTestHarness */,
 			);
 		};
 /* End PBXProject section */
@@ -180,10 +213,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D494802621E384C100B51AB3 /* Resources */ = {
+		D494803D21E386D300B51AB3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D494804C21E386D500B51AB3 /* LaunchScreen.storyboard in Resources */,
+				D494804921E386D500B51AB3 /* Assets.xcassets in Resources */,
+				D494804721E386D400B51AB3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,26 +230,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D494803A21E3851100B51AB3 /* BasicGCDTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D494802421E384C100B51AB3 /* Sources */ = {
+		D494803B21E386D300B51AB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D494802E21E384C100B51AB3 /* BasicGCDTimerTests.swift in Sources */,
+				D494804421E386D400B51AB3 /* ViewController.swift in Sources */,
+				D494804221E386D400B51AB3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D494802B21E384C100B51AB3 /* PBXTargetDependency */ = {
+		D494805421E386E200B51AB3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D494801E21E384C100B51AB3 /* BasicGCDTimer */;
-			targetProxy = D494802A21E384C100B51AB3 /* PBXContainerItemProxy */;
+			targetProxy = D494805321E386E200B51AB3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D494804521E386D400B51AB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D494804621E386D400B51AB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D494804A21E386D500B51AB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D494804B21E386D500B51AB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D494803121E384C100B51AB3 /* Debug */ = {
@@ -341,6 +398,7 @@
 		D494803421E384C100B51AB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -348,6 +406,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_PEDANTIC = YES;
 				INFOPLIST_FILE = BasicGCDTimer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +418,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.riftvalleysoftware.BasicGCDTimer;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,6 +428,7 @@
 		D494803521E384C100B51AB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -373,6 +436,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_PEDANTIC = YES;
 				INFOPLIST_FILE = BasicGCDTimer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -383,41 +448,44 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.riftvalleysoftware.BasicGCDTimer;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		D494803721E384C100B51AB3 /* Debug */ = {
+		D494804F21E386D500B51AB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P53V4JS928;
-				INFOPLIST_FILE = BasicGCDTimerTests/Info.plist;
+				INFOPLIST_FILE = BasicGCDTimerTestHarness/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.riftvalleysoftware.BasicGCDTimerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.riftvalleysoftware.BasicGCDTimerTestHarness;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D494803821E384C100B51AB3 /* Release */ = {
+		D494805021E386D500B51AB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P53V4JS928;
-				INFOPLIST_FILE = BasicGCDTimerTests/Info.plist;
+				INFOPLIST_FILE = BasicGCDTimerTestHarness/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.riftvalleysoftware.BasicGCDTimerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.riftvalleysoftware.BasicGCDTimerTestHarness;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -445,11 +513,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D494803621E384C100B51AB3 /* Build configuration list for PBXNativeTarget "BasicGCDTimerTests" */ = {
+		D494804E21E386D500B51AB3 /* Build configuration list for PBXNativeTarget "BasicGCDTimerTestHarness" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D494803721E384C100B51AB3 /* Debug */,
-				D494803821E384C100B51AB3 /* Release */,
+				D494804F21E386D500B51AB3 /* Debug */,
+				D494805021E386D500B51AB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
